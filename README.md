@@ -71,21 +71,37 @@ The project includes multiple visual and analytical components:
 ### Weekly Revenue Trends by Region
 ![Weekly Revenue by Region](images/revenue_over_week_regionpng.png)
 
-### Top Product Categories by Revenue
-![Category Revenue](visuals/category_revenue.png)
+### Top Product Categories by Revenue and Discount
+![Category Revenue](images/product_category_revenue.png)
+![Category Revenue](images/product_category_discount_revenue.png)
 
 ### Delivery Delay Heatmap
-![Delivery Heatmap](visuals/delivery_heatmap.png)
+![Delivery Heatmap](images/latedelivery_region_priceband.png)
+
+### Total Revenue by Region with Price Band Products
+![Total Revenue by Region & Price-band](images/latedelivery_region_priceband.png)
+
+### Preferred Payment Method by Loyalty Tier
+![Payment method by Loyalty-Tier](images/payment_loyaltytier.png)
+
+### Total Order Volume by Loyalty Tier and by Region
+![Total Orders Quantity by Loyalty-Tier and Region](images/order_loyaltytier_region.png)
+
+### Customer Behavior Loyalty
+![Customer Behavior by Loyalty](images/customer_behavior_loyalty.png)
+
 
 ⸻
 
 # **🔍 Key Insights**
 
-	•	Revenue shows strong seasonality, peaking mid-period across all regions
-	•	Cleaning products are the primary revenue driver
-	•	Gold-tier customers generate the highest value and order volume
-	•	Discounts have limited impact on increasing sales volume
-	•	Delivery delays are most common in Medium and High price bands
+	•	Revenue shows strong seasonality, peaking mid-period across all regions but with Central and
+        West contributing most
+	•	Cleaning products are the primary revenue driver while the Personal Care segment underperforms
+        and relies more heavily on discounting.
+	•	Gold-tier customers generate the highest value and order volume and they are mostly active in the Central and West regions
+	•	Discounts have a limited impact on increasing sales volume
+	•	Delivery delays are most common in Medium and High price bands in North, East, and South regions, respectively
 	•	High-value orders require improved logistics reliability
 
 ⸻
@@ -96,6 +112,7 @@ The project includes multiple visual and analytical components:
 	•	Strengthen loyalty programs targeting Gold-tier customers
 	•	Reduce reliance on discounting for underperforming categories
 	•	Prioritise delivery improvements for high-value orders and regions with high delay rates
+	•	Align Marketing with Customer Signup Cohorts (Customers who signed up during mid-period months exhibit higher purchasing activity)
 
 ⸻
 
