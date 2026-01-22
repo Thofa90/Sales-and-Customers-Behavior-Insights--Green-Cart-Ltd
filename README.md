@@ -1,7 +1,8 @@
 # Sales-and-Customers-Behavior-Insights--Green-Cart-Ltd
-📊 Sales & Customer Behaviour Insights – Green Cart Ltd.
 
-📌 Project Overview
+# **📊 Sales & Customer Behaviour Insights – Green Cart Ltd.**
+
+# **📌 Project Overview**
 
 This project analyses sales performance, customer behaviour, and delivery operations for Green Cart Ltd., a UK-based e-commerce company specialising in eco-friendly household products. The analysis was conducted to support the company’s Q2 performance review and enable data-driven decision-making across marketing, sales, and operations.
 
@@ -9,7 +10,8 @@ The project focuses on transforming raw transactional, product, and customer dat
 
 ⸻
 
-🎯 Project Objectives
+# **🎯 Project Objectives**
+
 	•	Clean and validate sales, product, and customer datasets
 	•	Merge multiple data sources into a unified analytical dataset
 	•	Engineer features to enhance analytical depth
@@ -18,18 +20,20 @@ The project focuses on transforming raw transactional, product, and customer dat
 
 ⸻
 
-🗂️ Datasets Used
+# **🗂️ Datasets Used**
 
 The analysis is based on three CSV datasets:
+
 	•	sales_data.csv – Order-level transactions, pricing, discounts, delivery status
 	•	product_info.csv – Product details, categories, launch dates, base prices
 	•	customer_info.csv – Customer demographics, signup dates, loyalty tiers
 
 ⸻
 
-🧹 Data Cleaning & Preparation
+# **🧹 Data Cleaning & Preparation**
 
 Key data quality steps included:
+
 	•	Standardising categorical fields (e.g. delivery status, regions, loyalty tiers)
 	•	Fixing typos and inconsistent text formatting
 	•	Handling missing values using business-appropriate defaults
@@ -40,7 +44,7 @@ Key data quality steps included:
 
 ⸻
 
-🛠️ Feature Engineering
+# **🛠️ Feature Engineering**
 
 New features were created to support deeper analysis, including:
 	•	Revenue – Quantity × Unit Price × (1 − Discount)
@@ -54,7 +58,7 @@ These features enabled improved segmentation, trend detection, and performance c
 
 ⸻
 
-📈 Key Analyses & Visualisations
+# **📈 Key Analyses & Visualisations**
 
 The project includes multiple visual and analytical components:
 	•	Weekly revenue trends by region
@@ -64,9 +68,21 @@ The project includes multiple visual and analytical components:
 	•	Payment method preferences by loyalty tier
 	•	Correlation analysis between revenue, quantity, and discounts
 
+## 📈 Key Visual Insights
+
+### Weekly Revenue Trends by Region
+![Weekly Revenue by Region](images/weekly_revenue_by_region.png)
+
+### Top Product Categories by Revenue
+![Category Revenue](visuals/category_revenue.png)
+
+### Delivery Delay Heatmap
+![Delivery Heatmap](visuals/delivery_heatmap.png)
+
 ⸻
 
-🔍 Key Insights
+# **🔍 Key Insights**
+
 	•	Revenue shows strong seasonality, peaking mid-period across all regions
 	•	Cleaning products are the primary revenue driver
 	•	Gold-tier customers generate the highest value and order volume
@@ -76,7 +92,8 @@ The project includes multiple visual and analytical components:
 
 ⸻
 
-🚀 Business Recommendations
+# **🚀 Business Recommendations**
+
 	•	Focus marketing and inventory efforts on high-performing categories and regions
 	•	Strengthen loyalty programs targeting Gold-tier customers
 	•	Reduce reliance on discounting for underperforming categories
@@ -84,7 +101,8 @@ The project includes multiple visual and analytical components:
 
 ⸻
 
-⚠️ Data Issues & Limitations
+**⚠️ Data Issues & Limitations**
+
 	•	Some orders occurred before recorded signup dates due to data generation constraints
 	•	No discounts exceeded 20%, limiting high-discount analysis
 	•	Guest checkout and historical data migration scenarios affect lifecycle metrics
@@ -93,14 +111,16 @@ Recommendations include improved event validation, clearer customer lifecycle tr
 
 ⸻
 
-🧪 Optional Stretch Analysis
+**🧪 Optional Stretch Analysis**
+
 	•	Advanced .query() filters for customer behaviour analysis
 	•	Revenue normalisation using MinMaxScaler
 	•	Identification of underperforming products based on volume, discount, and delay metrics
 
 ⸻
 
-🧰 Tools & Technologies
+**🧰 Tools & Technologies**
+
 	•	Python
 	•	Pandas & NumPy
 	•	Matplotlib & Seaborn
@@ -108,6 +128,6 @@ Recommendations include improved event validation, clearer customer lifecycle tr
 	•	Jupyter Notebook / Google Colab
 
 ⸻
-✅ Conclusion
+# **✅ Conclusion**
 
 This project demonstrates a complete end-to-end data analytics workflow—from raw data cleaning to business-ready insights—highlighting how structured analysis can drive strategic decision-making in an e-commerce environment.
