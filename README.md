@@ -1,5 +1,3 @@
-# Sales-and-Customers-Behavior-Insights--Green-Cart-Ltd
-
 # **📊 Sales & Customer Behaviour Insights – Green Cart Ltd.**
 
 # **📌 Project Overview**
@@ -71,7 +69,7 @@ The project includes multiple visual and analytical components:
 ## 📈 Key Visual Insights
 
 ### Weekly Revenue Trends by Region
-![Weekly Revenue by Region](images/weekly_revenue_by_region.png)
+![Weekly Revenue by Region](images/revenue_over_week_regionpng.png)
 
 ### Top Product Categories by Revenue
 ![Category Revenue](visuals/category_revenue.png)
