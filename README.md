@@ -45,6 +45,7 @@ Key data quality steps included:
 # **🛠️ Feature Engineering**
 
 New features were created to support deeper analysis, including:
+
 	•	Revenue – Quantity × Unit Price × (1 − Discount)
 	•	Order Week – Weekly aggregation for trend analysis
 	•	Price Band – Low / Medium / High pricing categories
@@ -59,6 +60,7 @@ These features enabled improved segmentation, trend detection, and performance c
 # **📈 Key Analyses & Visualisations**
 
 The project includes multiple visual and analytical components:
+
 	•	Weekly revenue trends by region
 	•	Product category performance (revenue, quantity, discount usage)
 	•	Customer behaviour by loyalty tier and signup cohort
@@ -79,7 +81,7 @@ The project includes multiple visual and analytical components:
 ![Delivery Heatmap](images/latedelivery_region_priceband.png)
 
 ### Total Revenue by Region with Price Band Products
-![Total Revenue by Region & Price-band](images/latedelivery_region_priceband.png)
+![Total Revenue by Region & Price-band](images/rev_region_price_band_products.png)
 
 ### Preferred Payment Method by Loyalty Tier
 ![Payment method by Loyalty-Tier](images/payment_loyaltytier.png)
